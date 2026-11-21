@@ -8,7 +8,15 @@
       
       text{font-family:RiteshSans, Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;fill:#F4F6FA} .muted{fill:#9AA7B8} .accent{fill:#8B9CFF}
       .panel{fill:url(#surface);stroke:#283140;stroke-width:1.2} .small{font-size:13px} .label{font-size:12px;letter-spacing:1.6px;font-weight:650}
-      .card-enter{opacity:1;transform:none}.draw{stroke-dashoffset:0}.pulse{opacity:1}
+      
+      .card-enter { opacity:0; transform:translateY(22px); animation:enter .78s cubic-bezier(.2,.75,.2,1) 0.60s both; }
+      .draw { stroke-dasharray:1200; stroke-dashoffset:1200; animation:draw 1.2s ease-out 0.95s forwards; }
+      .pulse { animation:pulse 3.6s ease-in-out 1.35s infinite; transform-box:fill-box; transform-origin:center; }
+      @keyframes enter { to {opacity:1; transform:translateY(0)} }
+      @keyframes draw { to {stroke-dashoffset:0} }
+      @keyframes pulse { 0%,100% {opacity:.62} 50% {opacity:1} }
+      @media (prefers-reduced-motion: reduce) { *,*::before,*::after { animation:none!important; transition:none!important; } .card-enter {opacity:1;transform:none} .draw {stroke-dashoffset:0} }
+    
     </style>
   </defs>
   <rect x="1" y="1" width="998" height="188" rx="24" class="panel"/>

@@ -8,22 +8,53 @@
       
       text{font-family:RiteshSans, Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;fill:#F4F6FA} .muted{fill:#9AA7B8} .accent{fill:#8B9CFF}
       .panel{fill:url(#surface);stroke:#283140;stroke-width:1.2} .small{font-size:13px} .label{font-size:12px;letter-spacing:1.6px;font-weight:650}
-      .card-enter{opacity:1;transform:none}.draw{stroke-dashoffset:0}.pulse{opacity:1}
+      
+      .card-enter { opacity:0; transform:translateY(22px); animation:enter .78s cubic-bezier(.2,.75,.2,1) 1.20s both; }
+      .draw { stroke-dasharray:1200; stroke-dashoffset:1200; animation:draw 1.2s ease-out 1.55s forwards; }
+      .pulse { animation:pulse 3.6s ease-in-out 1.95s infinite; transform-box:fill-box; transform-origin:center; }
+      @keyframes enter { to {opacity:1; transform:translateY(0)} }
+      @keyframes draw { to {stroke-dashoffset:0} }
+      @keyframes pulse { 0%,100% {opacity:.62} 50% {opacity:1} }
+      @media (prefers-reduced-motion: reduce) { *,*::before,*::after { animation:none!important; transition:none!important; } .card-enter {opacity:1;transform:none} .draw {stroke-dashoffset:0} }
+    
     </style>
   </defs>
   <rect x="1" y="1" width="998" height="338" rx="24" class="panel"/>
   <g class="card-enter">
     <text x="42" y="48" class="label accent">ACTIVITY OVERVIEW</text>
     <text x="42" y="91" class="label muted">TOTAL CONTRIBUTIONS</text>
-    <text x="42" y="124" font-size="25" font-weight="720">0</text>
+    <text x="42" y="124" font-size="25" font-weight="720">54</text>
     <text x="277" y="91" class="label muted">CURRENT STREAK</text>
-    <text x="277" y="124" font-size="25" font-weight="720">0 days</text>
+    <text x="277" y="124" font-size="25" font-weight="720">1 days</text>
     <text x="512" y="91" class="label muted">ACTIVE DAYS</text>
-    <text x="512" y="124" font-size="25" font-weight="720">0</text>
+    <text x="512" y="124" font-size="25" font-weight="720">28</text>
     <text x="747" y="91" class="label muted">BUSIEST DAY</text>
-    <text x="747" y="124" font-size="25" font-weight="720">— · 0</text>
+    <text x="747" y="124" font-size="25" font-weight="720">2026-03-04 · 5</text>
     <path d="M42 152 H958" stroke="#283140"/>
     <text x="42" y="186" font-size="14" font-weight="650">Contributions per month</text>
-    <text x="60" y="250" font-size="13" class="muted">Monthly contribution history will appear after the daily data refresh.</text>
+    <rect x="76.7" y="302.0" width="40.0" height="2.0" rx="6" fill="url(#glow)" opacity=".9"/>
+    <text x="96.7" y="324" text-anchor="middle" class="small muted">Dec</text>
+    <rect x="150.0" y="286.7" width="40.0" height="15.3" rx="6" fill="url(#glow)" opacity=".9"/>
+    <text x="170.0" y="324" text-anchor="middle" class="small muted">Jan</text>
+    <rect x="223.3" y="256.0" width="40.0" height="46.0" rx="6" fill="url(#glow)" opacity=".9"/>
+    <text x="243.3" y="324" text-anchor="middle" class="small muted">Feb</text>
+    <rect x="296.7" y="210.0" width="40.0" height="92.0" rx="6" fill="url(#glow)" opacity=".9"/>
+    <text x="316.7" y="324" text-anchor="middle" class="small muted">Mar</text>
+    <rect x="370.0" y="217.7" width="40.0" height="84.3" rx="6" fill="url(#glow)" opacity=".9"/>
+    <text x="390.0" y="324" text-anchor="middle" class="small muted">Apr</text>
+    <rect x="443.3" y="294.3" width="40.0" height="7.7" rx="6" fill="url(#glow)" opacity=".9"/>
+    <text x="463.3" y="324" text-anchor="middle" class="small muted">May</text>
+    <rect x="516.7" y="302.0" width="40.0" height="2.0" rx="6" fill="url(#glow)" opacity=".9"/>
+    <text x="536.7" y="324" text-anchor="middle" class="small muted">Jun</text>
+    <rect x="590.0" y="248.3" width="40.0" height="53.7" rx="6" fill="url(#glow)" opacity=".9"/>
+    <text x="610.0" y="324" text-anchor="middle" class="small muted">Jul</text>
+    <rect x="663.3" y="286.7" width="40.0" height="15.3" rx="6" fill="url(#glow)" opacity=".9"/>
+    <text x="683.3" y="324" text-anchor="middle" class="small muted">Aug</text>
+    <rect x="736.7" y="233.0" width="40.0" height="69.0" rx="6" fill="url(#glow)" opacity=".9"/>
+    <text x="756.7" y="324" text-anchor="middle" class="small muted">Sep</text>
+    <rect x="810.0" y="286.7" width="40.0" height="15.3" rx="6" fill="url(#glow)" opacity=".9"/>
+    <text x="830.0" y="324" text-anchor="middle" class="small muted">Oct</text>
+    <rect x="883.3" y="286.7" width="40.0" height="15.3" rx="6" fill="url(#glow)" opacity=".9"/>
+    <text x="903.3" y="324" text-anchor="middle" class="small muted">Nov</text>
   </g>
 </svg>
