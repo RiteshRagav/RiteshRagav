@@ -1,0 +1,2 @@
+requests>=2.31.0
+# Optional font tooling: fonttools[woff]>=4.50.0

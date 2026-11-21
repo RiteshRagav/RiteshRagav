@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-label="Monthly contributions and activity summary">
+  <title>Monthly contributions and activity summary</title>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11151D"/><stop offset="1" stop-color="#151B25"/></linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8B9CFF"/><stop offset="1" stop-color="#63D6C5"/></linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+    <style>
+      
+      text{font-family:RiteshSans, Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;fill:#F4F6FA} .muted{fill:#9AA7B8} .accent{fill:#8B9CFF}
+      .panel{fill:url(#surface);stroke:#283140;stroke-width:1.2} .small{font-size:13px} .label{font-size:12px;letter-spacing:1.6px;font-weight:650}
+      .card-enter{opacity:1;transform:none}.draw{stroke-dashoffset:0}.pulse{opacity:1}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="998" height="338" rx="24" class="panel"/>
+  <g class="card-enter">
+    <text x="42" y="48" class="label accent">ACTIVITY OVERVIEW</text>
+    <text x="42" y="91" class="label muted">TOTAL CONTRIBUTIONS</text>
+    <text x="42" y="124" font-size="25" font-weight="720">0</text>
+    <text x="277" y="91" class="label muted">CURRENT STREAK</text>
+    <text x="277" y="124" font-size="25" font-weight="720">0 days</text>
+    <text x="512" y="91" class="label muted">ACTIVE DAYS</text>
+    <text x="512" y="124" font-size="25" font-weight="720">0</text>
+    <text x="747" y="91" class="label muted">BUSIEST DAY</text>
+    <text x="747" y="124" font-size="25" font-weight="720">— · 0</text>
+    <path d="M42 152 H958" stroke="#283140"/>
+    <text x="42" y="186" font-size="14" font-weight="650">Contributions per month</text>
+    <text x="60" y="250" font-size="13" class="muted">Monthly contribution history will appear after the daily data refresh.</text>
+  </g>
+</svg>

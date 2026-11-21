@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="190" viewBox="0 0 1000 190" role="img" aria-label="Three linked profile destinations">
+  <title>Three linked profile destinations</title>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11151D"/><stop offset="1" stop-color="#151B25"/></linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8B9CFF"/><stop offset="1" stop-color="#63D6C5"/></linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+    <style>
+      
+      text{font-family:RiteshSans, Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;fill:#F4F6FA} .muted{fill:#9AA7B8} .accent{fill:#8B9CFF}
+      .panel{fill:url(#surface);stroke:#283140;stroke-width:1.2} .small{font-size:13px} .label{font-size:12px;letter-spacing:1.6px;font-weight:650}
+      .card-enter{opacity:1;transform:none}.draw{stroke-dashoffset:0}.pulse{opacity:1}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="998" height="188" rx="24" class="panel"/>
+  <g class="card-enter">
+    <a href="https://www.ritesh.tech" xlink:href="https://www.ritesh.tech" target="_blank">
+      <rect x="42.0" y="28" width="293.3" height="132" rx="18" fill="#151B25" stroke="#283140"/>
+      <text x="64.0" y="61" class="label accent">01</text>
+      <text x="64.0" y="98" font-size="22" font-weight="700">Portfolio</text>
+      <text x="64.0" y="126" font-size="12" class="muted">Selected work &amp; experiments</text>
+      <path d="M293.3 51 l10 0 l0 10 M283.3 71 l20 -20" stroke="#63D6C5" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    </a>
+    <a href="https://github.com/RiteshRagav" xlink:href="https://github.com/RiteshRagav" target="_blank">
+      <rect x="353.3" y="28" width="293.3" height="132" rx="18" fill="#151B25" stroke="#283140"/>
+      <text x="375.3" y="61" class="label accent">02</text>
+      <text x="375.3" y="98" font-size="22" font-weight="700">GitHub</text>
+      <text x="375.3" y="126" font-size="12" class="muted">Code, projects &amp; contributions</text>
+      <path d="M604.7 51 l10 0 l0 10 M594.7 71 l20 -20" stroke="#63D6C5" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    </a>
+    <a href="https://www.linkedin.com/in/riteshragav/" xlink:href="https://www.linkedin.com/in/riteshragav/" target="_blank">
+      <rect x="664.7" y="28" width="293.3" height="132" rx="18" fill="#151B25" stroke="#283140"/>
+      <text x="686.7" y="61" class="label accent">03</text>
+      <text x="686.7" y="98" font-size="22" font-weight="700">LinkedIn</text>
+      <text x="686.7" y="126" font-size="12" class="muted">Professional profile</text>
+      <path d="M916.0 51 l10 0 l0 10 M906.0 71 l20 -20" stroke="#63D6C5" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    </a>
+  </g>
+</svg>

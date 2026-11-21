@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-label="Ritesh Ragav — profile introduction">
+  <title>Ritesh Ragav — profile introduction</title>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11151D"/><stop offset="1" stop-color="#151B25"/></linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8B9CFF"/><stop offset="1" stop-color="#63D6C5"/></linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+    <style>
+      
+      text{font-family:RiteshSans, Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;fill:#F4F6FA} .muted{fill:#9AA7B8} .accent{fill:#8B9CFF}
+      .panel{fill:url(#surface);stroke:#283140;stroke-width:1.2} .small{font-size:13px} .label{font-size:12px;letter-spacing:1.6px;font-weight:650}
+      .card-enter{opacity:1;transform:none}.draw{stroke-dashoffset:0}.pulse{opacity:1}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="998" height="268" rx="24" class="panel"/>
+  <g class="card-enter">
+    <circle cx="860" cy="65" r="90" fill="#8B9CFF" opacity=".12" filter="url(#soft)"/>
+    <path d="M0 220 C180 160 310 310 520 210 S810 110 1000 180" fill="none" stroke="url(#glow)" stroke-width="1.4" opacity=".28" class="draw"/>
+    <text x="54" y="54" class="label accent">HELLO, I'M</text>
+    <text x="54" y="118" font-size="48" font-weight="760" letter-spacing="-1.4">Ritesh Ragav</text>
+    <text x="56" y="158" font-size="20" font-weight="520">Building reliable, scalable web applications.</text>
+    <text x="56" y="194" font-size="14" class="muted">Full-stack developer in the making · Backend-minded · AI systems enthusiast</text>
+    <text x="56" y="237" font-size="13" class="muted">https://www.ritesh.tech  ·  @RiteshRagav</text>
+    <circle cx="850" cy="132" r="76" fill="#151B25" stroke="url(#glow)" stroke-width="2"/>
+    <text x="850" y="151" text-anchor="middle" font-size="58" font-weight="750" fill="#8B9CFF">RR</text>
+  </g>
+</svg>
