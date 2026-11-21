@@ -183,9 +183,8 @@ def svg_end() -> str:
 
 def save(name: str, svg: str) -> None:
     OUT.mkdir(parents=True, exist_ok=True)
-    for stale in OUT.glob("repo-*.svg"):
-        stale.unlink()
     (OUT / name).write_text(svg, encoding="utf-8")
+    print(f"Rendered {OUT / name}")
     print(f"Rendered {OUT / name}")
 
 

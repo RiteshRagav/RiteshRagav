@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="190" viewBox="0 0 1000 190" role="img" aria-label="Featured repository: CloudDoctor">
+  <title>Featured repository: CloudDoctor</title>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11151D"/><stop offset="1" stop-color="#151B25"/></linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8B9CFF"/><stop offset="1" stop-color="#63D6C5"/></linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+    <style>
+      
+      text{font-family:RiteshSans, Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif;fill:#F4F6FA} .muted{fill:#9AA7B8} .accent{fill:#8B9CFF}
+      .panel{fill:url(#surface);stroke:#283140;stroke-width:1.2} .small{font-size:13px} .label{font-size:12px;letter-spacing:1.6px;font-weight:650}
+      
+      .card-enter { opacity:0; transform:translateY(22px); animation:enter .78s cubic-bezier(.2,.75,.2,1) 3.00s both; }
+      .draw { stroke-dasharray:1200; stroke-dashoffset:1200; animation:draw 1.2s ease-out 3.35s forwards; }
+      .pulse { animation:pulse 3.6s ease-in-out 3.75s infinite; transform-box:fill-box; transform-origin:center; }
+      @keyframes enter { to {opacity:1; transform:translateY(0)} }
+      @keyframes draw { to {stroke-dashoffset:0} }
+      @keyframes pulse { 0%,100% {opacity:.62} 50% {opacity:1} }
+      @media (prefers-reduced-motion: reduce) { *,*::before,*::after { animation:none!important; transition:none!important; } .card-enter {opacity:1;transform:none} .draw {stroke-dashoffset:0} }
+    
+    </style>
+  </defs>
+  <rect x="1" y="1" width="998" height="188" rx="24" class="panel"/>
+  <g class="card-enter">
+    <a href="https://github.com/RiteshRagav/CloudDoctor" xlink:href="https://github.com/RiteshRagav/CloudDoctor" target="_blank">
+      <rect x="28" y="24" width="944" height="142" rx="18" fill="#151B25" stroke="#283140"/>
+      <rect x="28" y="24" width="4" height="142" rx="2" fill="url(#glow)"/>
+      <text x="58" y="62" class="label accent">FEATURED REPOSITORY  /  02</text>
+      <text x="58" y="101" font-size="27" font-weight="720">CloudDoctor</text>
+      <text x="58" y="128" font-size="14" class="muted">AI-assisted cloud diagnostics project.</text>
+      <text x="58" y="151" font-size="12" fill="#63D6C5">JavaScript</text>
+      <path d="M914 69 l18 0 l0 18 M906 87 l26 -18" stroke="#63D6C5" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </a>
+  </g>
+</svg>
