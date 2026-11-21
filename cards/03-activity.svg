@@ -23,7 +23,7 @@
   <g class="card-enter">
     <text x="42" y="48" class="label accent">ACTIVITY OVERVIEW</text>
     <text x="42" y="91" class="label muted">TOTAL CONTRIBUTIONS</text>
-    <text x="42" y="124" font-size="25" font-weight="720">54</text>
+    <text x="42" y="124" font-size="25" font-weight="720">55</text>
     <text x="277" y="91" class="label muted">CURRENT STREAK</text>
     <text x="277" y="124" font-size="25" font-weight="720">1 days</text>
     <text x="512" y="91" class="label muted">ACTIVE DAYS</text>
@@ -54,7 +54,7 @@
     <text x="756.7" y="324" text-anchor="middle" class="small muted">Sep</text>
     <rect x="810.0" y="286.7" width="40.0" height="15.3" rx="6" fill="url(#glow)" opacity=".9"/>
     <text x="830.0" y="324" text-anchor="middle" class="small muted">Oct</text>
-    <rect x="883.3" y="286.7" width="40.0" height="15.3" rx="6" fill="url(#glow)" opacity=".9"/>
+    <rect x="883.3" y="279.0" width="40.0" height="23.0" rx="6" fill="url(#glow)" opacity=".9"/>
     <text x="903.3" y="324" text-anchor="middle" class="small muted">Nov</text>
   </g>
 </svg>
