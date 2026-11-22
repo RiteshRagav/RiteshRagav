@@ -25,7 +25,7 @@
     <text x="42" y="91" class="label muted">TOTAL CONTRIBUTIONS</text>
     <text x="42" y="124" font-size="25" font-weight="720">55</text>
     <text x="277" y="91" class="label muted">CURRENT STREAK</text>
-    <text x="277" y="124" font-size="25" font-weight="720">1 days</text>
+    <text x="277" y="124" font-size="25" font-weight="720">0 days</text>
     <text x="512" y="91" class="label muted">ACTIVE DAYS</text>
     <text x="512" y="124" font-size="25" font-weight="720">28</text>
     <text x="747" y="91" class="label muted">BUSIEST DAY</text>
